@@ -1,0 +1,26 @@
+
+$border-color: rgba(34, 34, 34, 0.5);
+$bg-main: #FAFAFA;
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body, html{
+    
+    font-family: 'Roboto';
+    font-size: 10px;
+    display: grid;
+    grid-template-areas: "header"
+                        "stories"
+                        "card"
+                        "footer";
+    background-color: $bg-main;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+@import "header";
+@import "main";
+@import "footer";
+@import "desktop";

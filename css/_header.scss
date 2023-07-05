@@ -1,0 +1,35 @@
+
+header{
+    
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: .3px solid $border-color;
+    grid-area: "header";
+
+    padding: 0.5rem 1rem;
+
+    box-shadow: -1px 6px 29px -1px rgba(0,0,0,0.2);
+    -webkit-box-shadow: -1px 6px 29px -1px rgba(0,0,0,0.2);
+    -moz-box-shadow: -1px 6px 29px -1px rgba(0,0,0,0.2);
+    margin-bottom: 2.5rem;
+
+    img{
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+    }
+    h1{
+        font-size: 2.5rem;
+        font-weight: 400;
+        margin: 0;
+    }
+
+    input{
+        display: none;
+        background-color: $bg-main;
+        border: 0.3px solid black;
+        border-radius: 5px;
+    }
+}
